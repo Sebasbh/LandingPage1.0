@@ -1,0 +1,431 @@
+/* Estilos generales para pantallas grandes (por defecto) */
+/* Reset CSS */
+body, h1, h2, p, ul, li, img, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif; 
+}
+
+/* Global Styles */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+header {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#logo {
+    max-width: 80px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+}
+.menu-icon{
+    display: block;
+    display: none;
+}
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product-info img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
+
+.details {
+    padding: 20px;
+    text-align: center; 
+}
+
+.details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.details ul {
+    list-style: none;
+}
+
+.details ul li {
+    margin-bottom: 5px;
+}
+
+.description {
+    margin-top: 10px;
+    color: #777;
+}
+
+.availability {
+    margin-top: 10px;
+    color: #555;
+}
+
+.buy-now {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.price {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #e53935;
+}
+
+button {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c62828;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+#back-to-top-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #e53935;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#back-to-top-button:hover {
+    background-color: #c62828;
+}
+
+/* Sección 6: Añadir Testimonios o Comentarios */
+.testimonials {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonial {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #555;
+}
+
+.testimonial .author {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Sección 7: Formulario de Registro o Boletín */
+.newsletter {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.newsletter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #c62828;
+}
+
+/* Sección 8: Enlaces Sociales */
+.social-links {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links ul li {
+    margin-bottom: 10px;
+}
+
+.social-links ul li a {
+    text-decoration: none;
+    color: #e53935;
+    font-size: 18px;
+}
+
+.social-links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección 9: Política de Privacidad */
+.privacy-policy {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-policy h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.privacy-policy p {
+    font-size: 16px;
+    color: #555;
+}
+
+.privacy-policy a {
+    color: #e53935;
+    text-decoration: none;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos para pantallas medianas (tablets) */
+@media screen and (max-width: 768px) {
+    /* Oculta el menú de navegación principal */
+    nav ul {
+        display: none;
+    }
+
+    /* Muestra el ícono de menú en tablets */
+    .menu-icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    /* Estilos para el menú desplegable */
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-toggle label {
+        margin-right: 10px;
+    }
+
+    .menu {
+        list-style: none;
+        padding: 0;
+        display: none;
+        position: absolute;
+        background-color: #f5f5f5;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .menu li {
+        padding: 10px 0;
+    }
+
+    /* Muestra el menú desplegable cuando se hace clic en el ícono */
+    #menu-checkbox:checked + .menu-toggle .menu {
+        display: block;
+    }
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 480px) {
+    /* Ajustes generales */
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding-top: 10px;
+    }
+
+    /* Ajustes para la imagen del producto */
+    .product-info img {
+        max-width: 100%;
+    }
+
+    /* Ajustes para el menú de navegación */
+    nav ul {
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Muestra el ícono de menú en móviles */
+    .menu-icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    /* Oculta el menú desplegable por defecto en móviles */
+    .menu {
+        list-style: none;
+        padding: 0;
+        display: none; /* Asegura que el menú está oculto por defecto */
+        position: absolute;
+        background-color: #f5f5f5;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        text-align: center;
+    }
+
+    /* Estilos para mostrar el menú desplegable cuando se hace clic en el ícono */
+    #menu-checkbox:checked + .menu-icon + .menu {
+        display: block;
+    }
+
+    /* Ajustes específicos para otros elementos */
+    .buy-now button {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .testimonial p {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+
