@@ -315,6 +315,35 @@ form button:hover {
     text-decoration: underline;
 }
 
+/* Estilos para la tira pedagógica */
+.pedagogical-notice {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    animation: slideRight 20s linear infinite;
+    opacity: 0.9; /* Hace que el fondo sea semi-transparente */
+    transform: translateX(-100%); /* Inicialmente, fuera de la pantalla hacia la izquierda */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+/* Animación de desplazamiento hacia la derecha */
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100%); /* Comienza fuera de la pantalla hacia la izquierda */
+    }
+    100% {
+        transform: translateX(100%); /* Se detiene al borde derecho de la pantalla */
+    }
+}
+
+
+
 
 /* Estilos para pantallas medianas (tablets) */
 @media screen and (max-width: 768px) {
